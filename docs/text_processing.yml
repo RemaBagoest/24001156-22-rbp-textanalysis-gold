@@ -1,0 +1,17 @@
+tags:
+  - name: Cleaning Text Data (Enter the text you want to clean by filling in the form )
+get:
+  description: Teks yang akan diproses
+parameters:
+  - name: text
+    in: formData
+    required: true
+    type: string
+responses:
+    '200':
+      description: Successful response
+    '400':
+      description: Bad Request
+    '500':
+      description: Internal Server Error
+
